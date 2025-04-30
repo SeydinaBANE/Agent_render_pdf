@@ -1,0 +1,19 @@
+# Core libraries
+torch>=2.0
+transformers>=4.38
+
+# Tokenization support (SentencePiece + Fast tokenizers)
+sentencepiece
+tokenizers
+
+# Optional: for progress bars in notebooks
+tqdm
+ipywidgets
+
+# For Jupyter Notebook interface
+jupyter
+
+# Support for specific tokenizer models like Tiktoken (rarement utile ici mais préventif)
+tiktoken
+PyMuPDF
+ gradio 
