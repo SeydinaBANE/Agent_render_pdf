@@ -102,5 +102,9 @@ demo = gr.Interface(
     description="Pose une question sur un PDF en français. Affiche les meilleures réponses et permet d’exporter les extraits."
 )
 
+demo.launch(server_name="0.0.0.0", server_port=8080)
+
+
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=8080)
+
